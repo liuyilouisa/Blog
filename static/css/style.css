@@ -45,6 +45,7 @@ h1 {
     text-align: center;
     margin: 2rem auto;
     font-size: 1.2rem;
+    font-weight: bold;
     cursor: pointer;
 }
 
