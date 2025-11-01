@@ -4,6 +4,9 @@ POSTS = pathlib.Path("posts")
 
 ARTICLE_TEMPLATE = '''<article data-date="{date}" data-author="{author}">
     <h1 style="text-align:center">{title}</h1>
+    <subtitle class="subtitle">
+        {author} · {date}
+    </subtitle>
 {body}
 </article>'''
 
