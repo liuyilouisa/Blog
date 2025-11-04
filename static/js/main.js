@@ -68,6 +68,7 @@ document.getElementById("content").addEventListener("click", (e) => {
     }
 });
 
+// eslint-disable-next-line sonarjs/prefer-top-level-await
 loadPage("articles").catch((err) => {
     console.error("Failed to load initial page:", err);
 });
