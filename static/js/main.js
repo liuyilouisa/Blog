@@ -67,3 +67,7 @@ document.getElementById("content").addEventListener("click", (e) => {
         loadArticle(e.target.dataset.page);
     }
 });
+
+loadPage("articles").catch((err) => {
+    console.error("Failed to load initial page:", err);
+});
